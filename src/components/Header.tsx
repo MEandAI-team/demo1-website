@@ -62,7 +62,7 @@ export function Header({ currentPage, onNavigate }: HeaderProps) {
         <div className="absolute left-1/2 -translate-x-1/2">
           <button
             onClick={() => onNavigate('photography')}
-            className="tracking-widest uppercase transition-all duration-300 hover:scale-105"
+            className="text-sm md:text-base lg:text-lg tracking-widest uppercase transition-all duration-300 hover:scale-105 text-center"
           >
             XYZ Photography
           </button>

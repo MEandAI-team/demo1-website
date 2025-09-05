@@ -221,7 +221,7 @@ export function PhotoGrid() {
   return (
     <>
       <div className="w-full px-8 pb-8">
-        <div className="grid grid-cols-3 gap-2 max-w-7xl mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2 max-w-7xl mx-auto">
           {photos.map((photo, index) => (
             <div 
               key={photo.id} 
